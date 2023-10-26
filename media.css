@@ -30,6 +30,10 @@
     width: 100%;
   }
 
+  .hero-img {
+    width: 100%;
+  }
+
   .nav-list {
     position: fixed;
     flex-direction: column;
@@ -167,6 +171,14 @@
 @media only screen and (max-width: 44.3125em) {
   html {
     font-size: 50%;
+  }
+
+  .hero p {
+    font-size: 1.9rem;
+  }
+
+  .heading {
+    font-size: 3.5remgit;
   }
 }
 

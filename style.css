@@ -42,6 +42,25 @@ header {
   position: relative;
 }
 
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 32px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -129,7 +148,7 @@ li {
 }
 
 .hero {
-  margin-top: 15rem;
+  margin-top: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,7 +187,7 @@ li {
 
 
 .hero-img {
-  margin-top: 11.4rem;
+  margin-top: 6rem;
   width: 70%;
   transition: transform .5s ease;
 }
