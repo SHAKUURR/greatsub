@@ -506,6 +506,47 @@ li {
   /* 144.444% */
 }
 
+#own {
+  background-image: url(img/own.png);
+  background-position: center;
+  background-size: cover;
+  padding: 15rem 10rem;
+  color: #fff;
+  text-align: center;
+}
+
+.own h2 {
+  text-align: center;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.6rem;
+  margin-bottom: 6rem;
+  /* 150% */
+}
+
+.own p {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.own a {
+  border-radius: 3.2rem;
+  border: 3px solid #FFD5BD;
+  background: #E5060C;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.6rem;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  margin-top: 6rem;
+}
+
 /*..................FOOTER......................*/
 footer {
   background: var(--Linear, linear-gradient(180deg, #E5060C 0%, #29171B 100%));
